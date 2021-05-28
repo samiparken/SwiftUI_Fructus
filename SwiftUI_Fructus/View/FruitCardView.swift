@@ -18,7 +18,6 @@ struct FruitCardView: View {
                             radius: 8, x: 6, y: 8)
                 
                 // FRUIT: TITLE
-                
                 Text("Blueberry")
                     .foregroundColor(Color.white)
                     .font(.largeTitle)
@@ -28,6 +27,10 @@ struct FruitCardView: View {
 
                 // FRUIT: HEADLINE
                 Text("Blueberries are sweet, nutritious and wildly popular fruit all over the world.")
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 16)
+                    .frame(maxWidth:480)
                 
                 // BUTTON: START
             } //: VStack
