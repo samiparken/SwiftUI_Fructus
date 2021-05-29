@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22C89C712660D0AF003EBE79 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C89C702660D0AF003EBE79 /* StartButtonView.swift */; };
+		22EB3DF72662E6E300304D59 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB3DF62662E6E300304D59 /* OnboardingView.swift */; };
 		22F52B12265BAD62005E1B36 /* SwiftUI_FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F52B11265BAD62005E1B36 /* SwiftUI_FructusApp.swift */; };
 		22F52B14265BAD62005E1B36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F52B13265BAD62005E1B36 /* ContentView.swift */; };
 		22F52B16265BAD64005E1B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F52B15265BAD64005E1B36 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		22C89C702660D0AF003EBE79 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		22EB3DF62662E6E300304D59 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		22F52B0E265BAD62005E1B36 /* SwiftUI_Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F52B11265BAD62005E1B36 /* SwiftUI_FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FructusApp.swift; sourceTree = "<group>"; };
 		22F52B13265BAD62005E1B36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				22F52B11265BAD62005E1B36 /* SwiftUI_FructusApp.swift */,
 				22F52B13265BAD62005E1B36 /* ContentView.swift */,
+				22EB3DF62662E6E300304D59 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				22F52B23265BB865005E1B36 /* FruitCardView.swift in Sources */,
 				22C89C712660D0AF003EBE79 /* StartButtonView.swift in Sources */,
 				22F52B14265BAD62005E1B36 /* ContentView.swift in Sources */,
+				22EB3DF72662E6E300304D59 /* OnboardingView.swift in Sources */,
 				22F52B12265BAD62005E1B36 /* SwiftUI_FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
